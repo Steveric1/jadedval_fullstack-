@@ -1,8 +1,8 @@
 #!/bin/bash
 
-if [ -d "jade_dval" ]; then
+if [ -d "jadedval_frontend" ]; then
     echo "pulling latest frontend files..."
-    cd jade_dval && npm install && npm run build
+    cd jadedval_frontend && npm install && npm run build
 else
     echo "Already building frontend files..."
 fi
